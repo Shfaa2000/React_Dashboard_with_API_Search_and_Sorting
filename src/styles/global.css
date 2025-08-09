@@ -1,0 +1,53 @@
+table {
+  margin-left: 50%;
+  transform: translateX(-50%);
+  padding: 10px;
+  text-align: center;
+  width: 800px;
+}
+table td {
+  height: 50px;
+  border: 1px solid gray;
+}
+table .id {
+  width: 150px;
+}
+table .title {
+  width: 400px;
+}
+table .price {
+  width: 120px;
+}
+table .cat {
+  width: 300px;
+}
+table .details {
+  width: 200px;
+}
+table tbody td:last-child{
+  color: blue;
+  font-size: 15px;
+}
+@media (max-width: 767px){
+  .seso{
+    flex-direction: column;
+    align-items: center;
+  }
+  .seso button{
+    margin-top: 20px;
+  }
+  .container{
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  table{
+    width: 100%;
+  }
+  .maindetails{
+    flex-direction: column;
+  }
+  .maindetails img{
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
