@@ -51,7 +51,7 @@ const Details = () => {
           </div>
         </div>
       </div>
-      <div className="flex mt-6">
+      <div className="flex mt-6 flex-col md:flex-row">
         <h1 className="font-bold text-3xl">Description:</h1>
         <h3 className="w-80 ml-10">{product.description}</h3>
       </div>
