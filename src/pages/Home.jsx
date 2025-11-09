@@ -7,7 +7,7 @@ import { SearchBar } from "../components/SearchBar";
 
 // this is the main page in project
 // that shows the products in a table and make sort or search  on them
-const HomePage = () => {
+const Home = () => {
   const [products, setProducts] = useState([]);
   const [search, setSearch] = useState('');
   const [sortOrder, setSortOrder] = useState(true);
@@ -45,4 +45,4 @@ const HomePage = () => {
   );
 };
 
-export default HomePage;
+export default Home;
